@@ -29,7 +29,16 @@ public class App {
 		System.out.println(u1.getUserName());
 		System.out.println(u2.getUserName());
 		System.out.println(u3.getUserName());
-	
+		
+		// for loop
+		for (int x = 0; x < 100; x++) {
+			
+			//Prompt user to guess a letter.
+			//Prompt user with mask of word(recalculate mask)
+			//Prompt user with input
+			//repeat...
+			System.out.println(x);
+		} //increment counter
 	}
 	
 }
