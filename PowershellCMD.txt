@@ -1,0 +1,17 @@
+**PowerShell Commands**
+cd- Change Directory
+ls- list
+cd.. - Backup one from Dir
+mkdir ""- makes a new folder in the current dir
+
+Git Hub Commands
+git status - Shows status of working Dir
+git clone- Creates a Clone of Repository
+
+--Adding to Git--
+git add .(or -a)- Add files to Staging
+git commit (-m, for message)- Commits changes
+git push ("can add 'origin master'")- Pushes to Git Hub
+
+--Retreiving--
+git pull- Pulls from Dir. 
