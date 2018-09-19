@@ -4,6 +4,9 @@ ls- list
 cd.. - Backup one from Dir
 mkdir ""- makes a new folder in the current dir
 
+**this is a link to more cmds for powershell
+https://blogs.technet.microsoft.com/heyscriptingguy/2015/06/11/table-of-basic-powershell-commands/
+
 Git Hub Commands
 git status - Shows status of working Dir
 git clone- Creates a Clone of Repository
