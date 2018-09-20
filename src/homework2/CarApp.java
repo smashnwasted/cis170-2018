@@ -36,9 +36,14 @@ public class CarApp {
 		System.out.println(car3.getModel());
 		System.out.println(car3.getMakeYear());
 		
-		// for loop that counts down to print go
-		for (int x = 4; x > 0; x--) {
-			System.out.println(x);
+		// while loop that counts down to print go
+		
+		for(int i = 10; i > 0; i-- ) {
+			if( i == 0 ) {
+				System.out.println("race");
+			}
+			else
+				System.out.println(i);
 		} 
 	}
 	
