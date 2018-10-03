@@ -1,9 +1,21 @@
 package edu.parrish.java.hangman;
 
 public class HangmanWord {
-    String Gameword = "Guitar";
+    String word = "Guitar";
 
-    for (int i, i < word.length(Gameword), i++)
+    public void maskword()
+    {
 
-        System.out.println("*")
+        for (int i = 0; i < word.length(); i++) {
+
+            System.out.print("*");
+
+        }
+    }
+
+    public void printwordlength(){
+        int wordnumber = word.length();
+        System.out.println(wordnumber);
+    }
 }
+
