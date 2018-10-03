@@ -40,7 +40,8 @@ public class CarApp {
 		
 		for(int i = 10; i > 0; i-- ) {
 			if( i == 0 ) {
-				System.out.println("race");
+				]-
+				System.out.println("race");01
 			}
 			else
 				System.out.println(i);

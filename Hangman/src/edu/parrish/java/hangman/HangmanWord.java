@@ -1,21 +1,21 @@
 package edu.parrish.java.hangman;
 
 public class HangmanWord {
-    String word = "Guitar";
+    //variable for the word the user is trying to guess
+    String word= "Guitar";
 
+    //This is the method for itterating through the word and masking it
     public void maskword()
     {
-
-        for (int i = 0; i < word.length(); i++) {
-
-            System.out.print("*");
-
+        String unmaskedword = word;
+        for (int i = 0; i < unmaskedword.length(); i++){
+            char letter = word.charAt(i);
+            String replacechar = word.replace(letter, '_');
+            String maskedword = replacechar.toString();
+            System.out.print(maskedword);
         }
+
     }
 
-    public void printwordlength(){
-        int wordnumber = word.length();
-        System.out.println(wordnumber);
-    }
 }
 
