@@ -1,11 +1,7 @@
 package ryan.parrish.java.system;
 
 public class Car {
-	
-	
-	public Car(int mpg, int tankSize, int milesdriven) {
-		
-	}
+
 	
 	//miles the car has driven
 	public int milesdriven;
@@ -79,7 +75,13 @@ public class Car {
 		this.milesdriven = milesdriven;
 	}
 
-
+	public Car(int tanksize, int mpg, int milesdriven){
+		
+		this.mpg = mpg;
+		this.tankSize = tanksize;
+		this.milesdriven = milesdriven;
+	
+	}
 
 	public int getMilesTillnextPitStop(int mpg, int tankSize, int milesdriven) 
 	{

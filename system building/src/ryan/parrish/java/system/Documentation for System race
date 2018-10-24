@@ -23,3 +23,24 @@ System for a car race
 -distance
 -number of turns
 	-a turn slows all racers down at 'x' a rate
+
+	
+Class 10/24
+-list
+-Files
+-UI(optional)
+
+Hangman example:
+
+
+Game[]<---------------------
+- prompt uesr<----------   |
+- collect guess 	    |  |
+- update game status <--   |
+^---------------------------
+
+
+
+
+
+
