@@ -27,28 +27,21 @@ public class UserService {
 				
 				
 				String [] splitNames = st.split(" ");
-				
 				Users u = new Users();
+				u.setFirstName(splitNames[0]);
 				
-				if(splitNames.length == 1) 
+				if (splitNames.length> 2) 
 				{
-					u.setFirstName(splitNames[0]);
-					
-				}
-				
-				else if (splitNames.length> 2) 
-				{
-					u.setFirstName(splitNames[0]);
 					u.setMiddleName(splitNames[1]);
 					u.setLastName(splitNames[2]);
 				}
-				else {
+				else 
+				{
 					u.setLastName(splitNames[1]);
 				}
 				
 				users.add(u);
 			}
-		br.close();
 		}
 		return users;
 	}

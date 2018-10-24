@@ -14,7 +14,6 @@ public class App {
 		{
 			
 			List<Users> users = ru.loadUsers();
-			
 			for (Users user : users) 
 			{
 				
