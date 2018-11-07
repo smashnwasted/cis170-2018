@@ -38,14 +38,14 @@ public class CarApp {
 		
 		// while loop that counts down to print go
 		
-		for(int i = 10; i > 0; i-- ) {
+		/*for(int i = 10; i > 0; i-- ) {
 			if( i == 0 ) {
 				]-
-				System.out.println("race");01
+				System.out.println("race");
 			}
 			else
 				System.out.println(i);
-		} 
+		}*/
 	}
 	
 }
